@@ -22,7 +22,7 @@ function Navbar(){
         <nav id="navbar">
         <h2>
             <Link to="/">
-               <BiCameraMovie/> MoviesLib
+               <BiCameraMovie/> The Boys Movies
             </Link>
         </h2>
         

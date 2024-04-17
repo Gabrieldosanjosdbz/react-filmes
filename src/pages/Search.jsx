@@ -15,7 +15,7 @@ function Search (){
     const [searchParams] = useSearchParams();
 
     const [movies, setMovies] = useState([]);
-    const query = searchParams.get("q");
+    const query = searchParams.get("q");   //Pegando um parametro com chave "q" da url
 
     const getSearchedMovies = async (url) => {
         const res = await fetch (url)
